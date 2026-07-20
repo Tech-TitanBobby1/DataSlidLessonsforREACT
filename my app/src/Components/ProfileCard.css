@@ -1,0 +1,35 @@
+.profile-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: #1e1e2e;
+  padding: 12px 18px;
+  border-radius: 14px;
+  margin: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease;
+  max-width: 320px;
+}
+
+.profile-card:hover {
+  transform: translateY(-3px);
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #8b5cf6;
+}
+
+.profile-text {
+  color: #f1f1f1;
+  font-size: 14px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.profile-name {
+  font-weight: 700;
+  color: #a78bfa;
+}

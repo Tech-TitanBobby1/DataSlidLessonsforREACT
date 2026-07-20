@@ -1,0 +1,29 @@
+.btn {
+    position: relative;
+    padding: 14px 32px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    font-family: 'Segoe UI', sans-serif;
+}
+.btn-primary {
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0,4);
+}
+.btn-primary:hover {
+    background: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(99, 102, 241, 0,5);
+}
+.btn-primary:active {
+    transform: translateY(0px);
+}
+.btn-text {
+    position: relative;
+    z-index: 1;
+}
